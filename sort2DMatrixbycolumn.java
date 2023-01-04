@@ -1,19 +1,21 @@
 import java.util.*;
 public List<List<Integer>> create2DArray(int nr,int nc){
-        
-        List<List<Integer>> ans=new ArrayList<>();
-        for(int i=0;i<nr;i++){
-              List<Integer> list=new ArrayList<>();
-              
-              for(int j=0;j<nc;j++){
-                  int random=(int)(Math.random()*101);
-                  list.add(random);
-              }
-        
-           ans.add(list);
-        }
-        return ans;
-    }
+        
+        List<List<Integer>> ans=new ArrayList<>();
+        for(int i=0;i<nr;i++){
+              List<Integer> list=new ArrayList<>();
+              
+              for(int j=0;j<nc;j++){
+                  int random=(int)(Math.random()*101);
+                  list.add(random);
+              }
+        
+           ans.add(list);
+        }
+        return ans;
+    }
+    
+    ///second part and first part both works separately file
 public class sort2DMatrixbycolumn {
   
 
